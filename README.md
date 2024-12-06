@@ -31,6 +31,7 @@ coding-challenge-RewardPay/
 ├── package-lock.json        # Lock file for dependencies
 ├── README.md                # Project documentation
 └── tsconfig.json            # TypeScript configuration
+```
 
 ## Setup and Installation
 
@@ -65,6 +66,8 @@ coding-challenge-RewardPay/
    npm test
    ```
 
+-------------
+-------------
 
 ## Project Instructions
 You are encouraged to treat this as a real-life project.  This typically means:
@@ -146,6 +149,7 @@ Below is what a typical output should look like.  Please note this is *not* the 
 $ ./myChallenge
 Revenue: $519,169
 Expenses: $411,664
+
 Gross Profit Margin: 22%
 Net Profit Margin: 21%
 Working Capital Ratio: 95%
