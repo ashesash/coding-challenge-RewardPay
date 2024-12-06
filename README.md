@@ -2,8 +2,71 @@
 
 ## Overview
 
-This repo contains the instructions and the data you need to complete the _RewardPay coding challenge_.  This challenge is not intended to be complex, but it is an opportunity for you to showcase your understanding and applying of good development practices.
+An application for calculating accounting metrics. This tool is developed using Typescript.
 
+## Technologies Used
+- TypeScript
+- Jest
+
+## Project Structure
+Here's the structure of the project:
+
+```
+coding-challenge-RewardPay/
+|
+├── src/                     # TypeScript source code
+│   ├── index.ts             # Entry point for the application
+│   └── calculations.ts      # Formulae for calculation
+│   └──utils/
+│      └── dataParser.ts     # For parsing the data.json file
+│      └── formatter.ts      # Formats the final values from the calculations
+|
+├── tests/                   # Unit tests
+│   └── calculations.test.ts # Test files
+|
+├── .gitignore               # Git ignore file
+├── data.json                # Sample data file
+├── jest.config.json         # Jest configuration
+├── package.json             # Project metadata and dependencies
+├── package-lock.json        # Lock file for dependencies
+├── README.md                # Project documentation
+└── tsconfig.json            # TypeScript configuration
+
+## Setup and Installation
+
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/ashesash/coding-challenge-RewardPay.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```
+   cd coding-challenge-RewardPay
+   ```
+
+3. **Install dependencies**:
+   ```
+   npm install
+   ```
+
+4. **Build the project**:
+   ```
+   npm run build
+   ```
+
+5. **Run the project**:
+   ```
+   npm run start
+   ```
+
+
+6. **Run tests**:
+   ```
+   npm test
+   ```
+
+
+## Project Instructions
 You are encouraged to treat this as a real-life project.  This typically means:
 
 - Use version control effectively
