@@ -4,6 +4,8 @@
   "description": "This repo contains the instructions and the data you need to complete the _RewardPay coding challenge_.  This challenge is not intended to be complex, but it is an opportunity for you to showcase your understanding and applying of good development practices.",
   "main": "accounting_calculation.js",
   "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
     "test": "jest"
   },
   "repository": {
