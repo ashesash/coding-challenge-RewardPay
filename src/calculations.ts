@@ -79,5 +79,10 @@ export const calculateWorkingCapitalRatio = (data: DataRecord[]): number => {
             liabilities -= record.total_value;
         }
     });
+
+    if (liabilities === 0) {
+        return 0;
+    }
+
     return (assets / liabilities) * 100;
 };
